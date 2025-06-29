@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micro Ecommerce</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+</head>
+<body>
+    <section class="hero is-info is-small">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <p class="title">Micro Ecommerce</p>
+            </div>
+        </div>
+    </section>
+    <div class="box-cta">
+        <p class="has-text-centered"> Compre nossos produtos em nosso E-commerce </p>
+    </div>
+    <div class="box-cta">
+    <p class="has-text-centered"> Compre nossos produtos em nosso E-commerce </p>
+</div>
+<div class="box">
+    <p class="title is-5">Pesquisar livro por ID</p>
+    <div class="field has-addons">
+        <div class="control">
+            <input class="input" type="number" id="inputIdLivro" placeholder="Digite o ID do livro">
+        </div>
+        <div class="control">
+            <button class="button is-info" onclick="pesquisarLivroPorID()">Pesquisar</button>
+        </div>
+    </div>
+    <div id="livroPesquisado" class="mt-4"></div>
+</div>
+    <section class="container">
+        <div class="columns books"></div>
+    </section>
+
+    <footer class="footer has-text-centered"> Feito por Prof. Jacques</footer>
+
+    <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
